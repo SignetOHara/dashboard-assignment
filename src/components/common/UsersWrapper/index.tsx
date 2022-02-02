@@ -5,10 +5,9 @@ import { Link } from 'react-router-dom';
 
 interface Props {
   children: React.ReactNode;
-  data?: User[];
 }
 
-export const UsersWrapper = ({ children, data }: Props) => {
+export const UsersWrapper = ({ children }: Props) => {
   return (
     <Grid container flexDirection="column">
       <Grid

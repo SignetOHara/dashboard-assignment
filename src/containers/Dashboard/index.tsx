@@ -61,7 +61,7 @@ export const Dashboard = ({ data }: Props) => {
   return (
     <>
       <Box mt={8} sx={{ boxShadow: 3, borderRadius: 3 }}>
-        <UsersWrapper data={data}>
+        <UsersWrapper>
           <UsersList data={data} handleDialog={handleDialog} />
         </UsersWrapper>
       </Box>
