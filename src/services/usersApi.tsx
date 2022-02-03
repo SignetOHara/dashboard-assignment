@@ -1,4 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { User } from '../types/types';
 
 // Note: The api doesn't accept real POST/PUT/DELETE data so the response is faked. The update happens locally
 // If POST/PUT/DELETE did work, the associated tags trigger a UI refresh once data is submitted. These are commented out for this project

@@ -1,4 +1,4 @@
-interface User {
+export interface User {
   id: string;
   name: string;
   username: string;
@@ -6,7 +6,7 @@ interface User {
   address: { city: string };
 }
 
-interface IFormInputs {
+export interface IFormInputs {
   name: string;
   username: string;
   email: string;

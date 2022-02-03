@@ -9,6 +9,7 @@ import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 import { Link } from 'react-router-dom';
 import { Message } from '../../atoms/Message';
+import { User } from '../../../types/types';
 
 interface UserListProps {
   data: User[];

@@ -1,6 +1,7 @@
 import { Form } from '../../components/common/Form/';
 import { FormWrapper } from '../../components/common/FormWrapper';
 import Box from '@mui/material/Box';
+import { User } from '../../types/types';
 
 interface Props {
   user: User;

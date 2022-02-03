@@ -8,6 +8,7 @@ import { toast } from 'react-toastify';
 import { Message } from '../../components/atoms/Message';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import { User } from '../../types/types';
 
 interface Props {
   data: User[];

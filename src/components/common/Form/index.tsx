@@ -12,6 +12,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
 import { useNavigate } from 'react-router-dom';
 import { v4 } from 'uuid';
+import { IFormInputs, User } from '../../../types/types';
 
 interface Props {
   user?: User;
